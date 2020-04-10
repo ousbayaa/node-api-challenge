@@ -39,23 +39,20 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] Mention two parts of Express that you learned about this week.
-
-
+    Express is a web application framework that sits on top of the Node.js web server. It’s like React, for the backend.
+    Express sits on top of the raw http server module provided by Node.js and adds extra functionality, like routing and middleware support
 
 - [ ] Describe Middleware?
-
-
+    Middleware provide a way to extend the features provided by the Express framework. They are implemented as small functions that handle one aspect of our application. 
 
 - [ ] Describe a Resource?
-
-
+    Each resource is accessible via a unique URI, resources can have multiple representations.
 
 - [ ] What can the API return to help clients know if a request was successful?
-
-
+    It can send a 202 code.
 
 - [ ] How can we partition our application into sub-applications?
-
+    Using folders, routers, and servers.js type files.
 
 
 ## Minimum Viable Product
